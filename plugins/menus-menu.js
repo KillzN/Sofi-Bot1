@@ -35,7 +35,6 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     const str = ` ┎━━━━━━━ ∙ʚ🤴🏻ɞ∙ ━━━━━━━┒
 ┃⭐ Creador : Sofía
 ┃📞 Wa.me/50765609370
-┃https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC
 ┖━━━━━━━ ∙ʚ⚜️ɞ∙ ━━━━━━━┚
 
 
@@ -47,7 +46,6 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
 
  ╭━〔 ❄️ 𝐆𝐑𝐔𝐏𝐎𝐒 ❄️〕
  *┃➤  ${usedPrefix}menuff*
- *┃➤  ${usedPrefix}comandosff*
  *┃➤  ${usedPrefix}kick*
  *┃➤  ${usedPrefix}grupo*
  *┃➤  ${usedPrefix}promote*
