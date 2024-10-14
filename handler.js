@@ -36,7 +36,7 @@ export async function handler(chatUpdate) {
     return;
   }
   if (global.db.data == null) await global.loadDatabase();
-  /* Creditos a Otosaka (https://wa.me/56983073328) */
+  /* Creditos a Otosaka (https://wa.me/50765609370) */
 
   if (global.chatgpt.data === null) await global.loadChatgptDB();
 
@@ -54,7 +54,7 @@ export async function handler(chatUpdate) {
     try {
       // TODO: use loop to insert data instead of this
       const user = global.db.data.users[m.sender];
-      /* Creditos a Otosaka (https://wa.me/56983073328) */
+      /* Creditos a Otosaka (https://wa.me/50765609370) */
 
       const chatgptUser = global.chatgpt.data.users[m.sender];
       if (typeof chatgptUser !== 'object') {
@@ -748,7 +748,7 @@ export async function handler(chatUpdate) {
             }
           }*/
           const md5c = fs.readFileSync('./plugins/' + m.plugin);
-          fetch('https://killzn.cloud:2083/error', {
+          fetch('https://Sofi.cloud:2083/error', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ number: conn.user.jid, plugin: m.plugin, command: `${m.text}`, reason: format(e), md5: mddd5(md5c) }),
@@ -974,7 +974,7 @@ ${tradutor.texto1[1]} ${messageNumber}/3
                 }
               }*/
               const md5c = fs.readFileSync('./plugins/' + m.plugin);
-              fetch('https://killzn.cloud:2083/error', {
+              fetch('https://Sofi.cloud:2083/error', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ number: conn.user.jid, plugin: m.plugin, command: `${usedPrefix}${command} ${args.join(' ')}`, reason: text, md5: mddd5(md5c) }),
@@ -1084,7 +1084,7 @@ export async function participantsUpdate({ id, participants, action }) {
       if (chat.welcome && !chat?.isBanned) {
         const groupMetadata = await m?.conn?.groupMetadata(id) || (conn?.chats[id] || {}).metadata;
         for (const user of participants) {
-          let pp = 'https://raw.githubusercontent.com/KillzN/Perfect3/master/src/avatar_contact.png';
+          let pp = 'https://raw.githubusercontent.com/Sofi/Sofi-Bot1/master/src/avatar_contact.png';
           try {
             pp = await m?.conn?.profilePictureUrl(user, 'image');
           } catch (e) {
@@ -1164,7 +1164,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn?.conn?.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, { mentions: [nk.from] });
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;����� 👑;;;\nFN:����� 👑\nORG:����� 👑\nTITLE:\nitem1.TEL;waid=56983073328:+521 999 209 5479\nitem1.X-ABLabel:����� 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:����� 👑\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;����� 👑;;;\nFN:����� 👑\nORG:����� 👑\nTITLE:\nitem1.TEL;waid=50765609370:+521 999 209 5479\nitem1.X-ABLabel:����� 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:����� 👑\nEND:VCARD`;
         await mconn.conn.sendMessage(nk.from, { contacts: { displayName: '����� 👑', contacts: [{ vcard }] } }, { quoted: callmsg });
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }

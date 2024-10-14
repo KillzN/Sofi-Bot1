@@ -1,5 +1,5 @@
 {
-  "name": "𝗞𝗜𝗟𝗟 - 𝗕𝗢𝗧 ",
+  "name": "𝐒𝐎𝐅𝐈 𝐁𝐎𝐓 ",
   "version": "1.0.0",
   "description": "Un chatbot automatizado para WhatsApp basado en Node.js, que permite realizar múltiples funciones y personalizaciones en la plataforma.",
   "main": "index.js",
@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/KillzN/Perfect3",
+  "homepage": "https://github.com/KillzN/Sofi-Bot1",
   "author": {
     "name": "KILLZN"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KillzN/Perfect3.git"
+    "url": "git+https://github.com/KillzN/Sofi-Bot1.git"
   },
   "bugs": {
-    "url": "https://github.com/KillzN/Perfect3/issues"
+    "url": "https://github.com/KillzN/Sofi-Bot1/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
@@ -95,7 +95,7 @@
     "ytdl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch.2"
   },
   "optionalDependencies": {
-    "@xct007/frieren-scraper": "github:ineffable.mvrco/frieren-scraper",
+    "@xct007/frieren-scraper": "github:maybesofia3/frieren-scraper",
     "wa-sticker-formatter": "^4.3.2"
   },
   "devDependencies": {

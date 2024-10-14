@@ -15,12 +15,12 @@ global.openai_key = 'sk-0';
 global.openai_org_id = 'org-3';
 /* Obtén tu ID de organización en este enlace: https://platform.openai.com/account/org-settings */
 
-global.MyApiRestBaseUrl = 'https://api.cafirexos.com'; // Bloqueo de IP -> usar esta para no ser bloqueado: 'https://api-ineffable.mvrco.onrender.com';
-global.MyApiRestApikey = 'ineffable.mvrco';
+global.MyApiRestBaseUrl = 'https://api.cafirexos.com'; // Bloqueo de IP -> usar esta para no ser bloqueado: 'https://api-maybesofia3.onrender.com';
+global.MyApiRestApikey = 'maybesofia3';
 
-global.MyApiRestBaseUrl2 = 'https://api-ineffable.mvrco-dcaf9040.koyeb.app';
+global.MyApiRestBaseUrl2 = 'https://api-maybesofia3-dcaf9040.koyeb.app';
 
-global.MyApiRestBaseUrl3 = 'https://api-ineffable.mvrco.onrender.com'; 
+global.MyApiRestBaseUrl3 = 'https://api-maybesofia3.onrender.com'; 
 
 global.keysZens = ['LuOlangNgentot', 'c2459db922', '37CC845916', '6fb0eff124', 'hdiiofficial', 'fiktod', 'BF39D349845E', '675e34de8a', '0b917b905e6f'];
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())];
@@ -28,7 +28,7 @@ global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c7
 global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())];
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5'];
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())];
-global.lolkeysapi = ['KillzN']; // ['ineffable.mvrco_2']
+global.lolkeysapi = ['Sofi']; // ['maybesofia3_2']
 global.itsrose = ['4b146102c4d500809da9d1ff'];
 
 global.APIs = {
@@ -146,7 +146,7 @@ global.rpg = {
       kambing: '🐐 Cabra',
       kerbau: '🐃 Búfalo',
       lion: '🦁 León',
-      money: '👾 KillzNCoins',
+      money: '👾 SofiCoins',
       monyet: '🐒 Mono',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente',
@@ -270,8 +270,8 @@ global.rpgshop = { // Tienda
       berlian: '♦️ Joya',
       kyubi: '🌀 Magia',
       gold: '👑 Oro',
-      money: '👾 KillzNCoins',
-      tiketcoin: '🎫 KillzN Tickers',
+      money: '👾 SofiCoins',
+      tiketcoin: '🎫 Sofi Tickers',
       stamina: '✨ Energía',
       potion: '🥤 Poción',
       aqua: '💧 Agua',

@@ -1,4 +1,4 @@
-// 𝗞𝗜𝗟𝗟 - 𝗕𝗢𝗧 @ineffable.mvrco - _antitoxic.js
+// 𝐒𝐎𝐅𝐈 𝐁𝐎𝐓 @maybesofia3 - _antitoxic.js
 
  // Para configurar o idioma, na raiz do projeto altere o arquivo config.json
   // Para configurar el idioma, en la raíz del proyecto, modifique el archivo config.json.

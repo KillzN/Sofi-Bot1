@@ -1,4 +1,4 @@
-// 𝗞𝗜𝗟𝗟 - 𝗕𝗢𝗧 @ineffable.mvrco - _antiarab.js
+// 𝐒𝐎𝐅𝐈 𝐁𝐎𝐓 @maybesofia3 - _antiarab.js
 
 
 const handler = (m) => m;

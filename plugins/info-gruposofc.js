@@ -10,9 +10,9 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 ${tradutor.texto1[1]}
     UNETE A MI GRUPO DE VENTAS:
-    https://www.instagram.com/ineffable.mvrco/`.trim();
+    https://www.instagram.com/maybesofia3/`.trim();
   const buttonMessage= {
-    'document': {url: `https://www.instagram.com/ineffable.mvrco/`},
+    'document': {url: `https://www.instagram.com/maybesofia3/`},
     'mimetype': `application/${document}`,
     'fileName': `${tradutor.texto2}`,
     'fileLength': 99999999999999,
@@ -21,7 +21,7 @@ ${tradutor.texto1[1]}
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://www.instagram.com/ineffable.mvrco/',
+        'mediaUrl': 'https://www.instagram.com/maybesofia3/',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': `${tradutor.texto3}`,
